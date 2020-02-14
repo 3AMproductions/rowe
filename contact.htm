@@ -1,9 +1,11 @@
+<!--
 <?php
 	if(isset($_POST['submit'])){
 	  require_once('mail.php');
 		$sent = mail_sent($_POST);
 	}
 ?>
+-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
 "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 
@@ -24,10 +26,11 @@
 <ul id="nav">
 	<li><a class="location" href="index.htm">Home</a></li>
   <li><a href="bio.htm">Bio</a></li>
-  <li><a href="contact.php">Contact</a></li>
+  <li><a href="contact.htm">Contact</a></li>
 </ul>
 
 <div id="content">
+<!-- REMOVED MAILER
 		<?php
 		  if(isset($sent)){
 			  if($sent){
@@ -39,7 +42,7 @@
 			}
 			else{ 
     	  echo '<form action="'.$_SERVER['PHP_SELF'].'" method="post">'."\n";
-		?>
+		?> -->
 <h2>Contact Rowe</h2>
 	<p class="contact">Do you have any comments, questions or concerns? Just send us an e-mail and we'll get back to you as soon as we can. Thank you for your interest.</p>
 	<fieldset>
