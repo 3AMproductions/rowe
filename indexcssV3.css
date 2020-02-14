@@ -1,0 +1,210 @@
+/*********************************** body ***************************************/
+
+*{margin:0;padding:0;}
+
+html {
+	/* http://www.splintered.co.uk/experiments/49/ */
+	min-height: 100%;
+	margin-bottom: 1px;
+  color: #1A4F0A;
+  background: #FFFFFF;
+  background: #FFFFFF url(images/background03.gif) center center no-repeat;
+  background: url(images/header02.jpg) 0px 117px repeat-x;
+}
+
+body {
+	position: relative;
+  padding-bottom: 10px;
+	text-align: center;
+	font-size: 69%;
+	font-family: "Lucida Grande", "Tahoma", "Lucida Sans Unicode", "Verdana", "Trebuchet MS", "Century Gothic", sans-serif;
+}
+
+#container {
+	position: relative;
+  margin: 60px auto 20px auto;
+  padding: 0px 0px 5px 0px;
+  width: 760px;
+  border: 1px solid #BFBBBE;
+  background: #FFFFFF;
+}
+
+
+/********************************* top elements *********************************/
+
+
+#header {
+	border-bottom: 1px solid #BFBBBE;
+  margin: 0px 0px 10px 0px;
+}
+
+#nav {
+	list-style: none;
+	display: block;
+	font-size: 1.0em;
+  text-transform: uppercase;
+  background: #FFFFFF;
+  padding: 3px;
+}
+
+#nav li {
+	margin-right: 0.5em;
+	display: inline;
+}
+
+
+/******************************** content sections ****************************/
+
+#content {
+	position: relative;
+	font-size: 1.0em;
+  margin: 10px 0px 0px 0px;
+  padding-top: 4px;
+  color: #1A4F0A;
+  /*background: #FFFFFF;*/
+  /*width: 700px;*/
+  height: 404px;
+}
+
+#content img {
+  float: right;
+  margin: 5px;
+}
+
+#words {
+	position: relative;
+  margin: 5px;
+  padding-top: 10px;
+  /*background: #043F06;
+  background: #FFFFFF;
+  background: #1A4F0A;
+  background: #D3D3D3;
+  background: #BF6C0B;
+  background: #BFBBBE;*/
+  color: #1A4F0A;
+  /*color: #FFFFFF;*/
+  width: 440px;
+}
+
+p {
+	text-indent: 10px;
+  text-align: justify;
+  line-height: 1.5em;
+  margin: 0px 20px 20px 20px;
+}
+
+.left {
+	float: left;
+}
+
+#bottom {
+	color: #000000;
+  background: transparent;
+  margin: 0px 20px 0px 20px;
+	padding: 8px 0px 1px 0px;
+	text-align: right;
+  font-size: .8em;
+}
+
+
+/********************************* links ********************************/
+
+ul#nav a, #bottom a {
+	text-decoration: none;
+	color: #BFBBBE;
+	background: #FFFFFF;
+	width: 100%;
+  padding: 3px;
+  line-height: .66em;
+}
+
+ul#nav li a:hover, ul#nav li a:focus, ul#nav li a.location, #bottom a:hover, #bottom a:focus {
+	/*background: #48D37F;
+  background: #FFFFFF;
+  background: #BF6C0B;*/
+	color: #1A4F0A;
+}
+
+p a {
+	background: #FFFFFF;
+  color: #C80000;
+  text-decoration: none;
+}
+
+p a:hover, p a:focus {
+	background: #C80000;
+  color: #FFFFFF;
+}
+
+
+/********************************* form ********************************/
+
+form{
+	/* so that submit button is centered */
+  /*text-align: center;*/
+  width: 400px;
+  margin: 0px auto;
+}
+
+p.contact { text-align: center; width: 350px; margin: 10px auto; }
+
+fieldset {
+	border: none;
+	/*width: 400px;;*/
+  width: 100%;
+	padding: 0px 0px 20px 0px;
+  margin: 0px auto;
+}
+
+.clear { margin: 10px 0px; }
+
+fieldset legend {
+	font-size: 18px;
+  text-align: right;
+  margin: 0px 0px 6px 0px;
+}
+
+fieldset label {
+	text-align: left;
+  display: block;
+}
+
+fieldset input, fieldset textarea {
+  width: 100%;
+  display: block;
+  clear: both;
+}
+
+#submit {
+	width: 80px;
+}
+
+
+
+/************************** header typestyles ***************************/
+
+h1
+{
+	color: #1A4F0A;
+	background: #FFFFFF;
+	margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+	text-align: center;
+	font-size: 4em;
+	font-weight: normal;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Helvetica", "Century Gothic", sans-serif;
+  /*background: url(images/rowecenter.jpg) top center no-repeat;*/
+  /*height: 260px;*/
+  text-align: center;
+}
+
+h2
+{
+  color: #0136AD;
+  background: transparent;
+	text-decoration: none;	
+	text-align: center;
+	font-size: 2.4em;
+	font-weight: normal;
+	font-family: "Trebuchet MS", "Tahoma", "Agency FB", "Helvetica", "Century Gothic", "Lucida Sans Unicode", sans-serif;
+}

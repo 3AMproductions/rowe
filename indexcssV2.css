@@ -1,0 +1,236 @@
+/*********************************** body ***************************************/
+
+*{margin:0;padding:0;}
+
+html {
+	/* http://www.splintered.co.uk/experiments/49/ */
+	min-height: 100%;
+	margin-bottom: 1px;
+  color: #1A4F0A;
+  background: #FFFFFF url(images/bg_1.gif) top center no-repeat;
+  /*background: black;*/
+}
+
+body {
+	position: relative;
+  padding-bottom: 10px;
+	text-align: center;
+	font-size: 69%;
+	font-family: "Lucida Grande", "Tahoma", "Lucida Sans Unicode", "Verdana", "Trebuchet MS", "Century Gothic", sans-serif;
+}
+
+#container {
+	position: relative;
+  margin: 0px auto 20px auto;
+  padding: 10px 0px 0px 0px;
+  width: 700px;
+  height: 458px;
+  /*background: #FF0000;
+  background-color: #FFF;
+  filter:alpha(opacity=60);
+	-moz-opacity: 0.6;
+	opacity: 0.6;*/
+  background: url(images/bg_1S2.gif) top center no-repeat;
+}
+
+
+/********************************* top elements *********************************/
+
+
+#header {
+	/*display: none;*/
+  height: 100px;
+}
+
+#nav {
+	list-style: none;
+	display: block;
+	font-size: 1.0em;
+  text-transform: uppercase;
+  background: #7FAF15;
+  background: url(images/text_bg.jpg) 0px 0px;
+  padding: 4px;
+  border: 3px solid #FFFEE9;
+  margin: 0px 5px 0px 5px;
+}
+
+#nav li {
+	margin-right: 0.5em;
+	display: inline;
+}
+
+
+/******************************** content sections ****************************/
+
+#content {
+	position: relative;
+	font-size: 1.0em;
+  padding: 15px 0px 0px 0px;
+}
+
+#content img {
+  float: left;
+  margin: 0px 8px 19px 5px;
+  border: 3px solid #FFFEE9;
+}
+
+/*#content img.not {
+  margin: 0px 8px 0px 5px;
+}*/
+
+#images {
+  float: left;
+  width: 50px;
+}
+
+#words {
+	position: relative;
+  background: #84B123;
+  background: #7FAF15;
+  background: url(images/text_bg.jpg) 0px 0px;
+  color: #FFFFFF;
+  padding: 10px 0px 0px 0px;
+  margin: 0px 5px 0px 402px;
+  border: 3px solid #FFFEE9;
+  height: 390px;
+}
+
+/*#words {
+  background: #043F06;
+  background: #FFFFFF;
+  background: #1A4F0A;
+  background: #D3D3D3;
+  background: #BF6C0B;
+  color: #1A4F0A;
+  color: #FFFFFF;
+}*/
+
+p {
+	text-indent: 10px;
+  text-align: justify;
+  line-height: 1.8em;
+  margin: 0px 15px 15px 15px;
+  /*background: #7FAF15;
+  background: inherit;*/
+  color: #FFFFFF;
+}
+
+.left {
+	float: left;
+}
+
+#bottom {
+	color: #000000;
+  background: transparent;
+  margin: 0px 20px 0px 20px;
+	padding: 8px 0px 1px 0px;
+	text-align: right;
+  font-size: .8em;
+}
+
+
+/********************************* links ********************************/
+
+ul#nav a, #bottom a {
+	text-decoration: none;
+  color: #CFCFCF;
+	background: #7FAF15;
+	width: 100%;
+  padding: 2px;
+  line-height: .66em;
+}
+
+ul#nav li a:hover, ul#nav li a:focus, ul#nav li a.location, #bottom a:hover, #bottom a:focus {
+  /*background: #FFFFFF;
+  background: #BF6C0B;*/
+  background: #7FAF15;
+	/*color: #1A4F0A;*/
+  color: #FFFFFF;
+}
+
+p a {
+	background: #FFFFFF;
+  color: #C80000;
+  text-decoration: none;
+}
+
+p a:hover, p a:focus {
+	background: #C80000;
+  color: #FFFFFF;
+}
+
+
+/********************************* form ********************************/
+
+form{
+	/* so that submit button is centered */
+  /*text-align: center;*/
+  width: 400px;
+  margin: 0px auto;
+}
+
+p.contact { text-align: center; width: 350px; margin: 10px auto; }
+
+fieldset {
+	border: none;
+	/*width: 400px;;*/
+  width: 100%;
+	padding: 0px 0px 20px 0px;
+  margin: 0px auto;
+}
+
+.clear { margin: 10px 0px; }
+
+fieldset legend {
+	font-size: 18px;
+  text-align: right;
+  margin: 0px 0px 6px 0px;
+}
+
+fieldset label {
+	text-align: left;
+  display: block;
+}
+
+fieldset input, fieldset textarea {
+  width: 100%;
+  display: block;
+  clear: both;
+}
+
+#submit {
+	width: 80px;
+}
+
+
+
+/************************** header typestyles ***************************/
+
+h1
+{
+	display: none;
+
+	/*color: #FFFFFF;
+	background: #222222;
+	margin: -10px 0px 0px 0px;
+  padding: 0px 0px 10px 0px;
+	text-align: left;
+	font-size: 4em;
+	font-weight: normal;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Helvetica", "Century Gothic", sans-serif;*/
+  color: #FFFFFF;
+  background: url(images/rowecenter.jpg) top center no-repeat;
+  height: 260px;
+  text-align: center;
+}
+
+h2
+{
+  color: #0136AD;
+  background: transparent;
+	text-decoration: none;	
+	text-align: center;
+	font-size: 2.4em;
+	font-weight: normal;
+	font-family: "Trebuchet MS", "Tahoma", "Agency FB", "Helvetica", "Century Gothic", "Lucida Sans Unicode", sans-serif;
+}

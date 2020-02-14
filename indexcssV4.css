@@ -1,0 +1,207 @@
+/*********************************** body ***************************************/
+
+*{margin:0;padding:0;}
+
+html {
+	/* http://www.splintered.co.uk/experiments/49/ */
+	min-height: 100%;
+	margin-bottom: 1px;
+  color: #1A4F0A; 
+  background: #FFFFFF url(images/Tree.jpg) 0px 0px no-repeat;
+  background: #FFFFFF url(images/background.gif) 0px 0px no-repeat;
+  /*background: black;*/
+}
+
+body {
+	position: relative;
+  padding-bottom: 10px;
+	text-align: right;
+	font-size: 69%;
+	font-family: "Lucida Grande", "Tahoma", "Lucida Sans Unicode", "Verdana", "Trebuchet MS", "Century Gothic", sans-serif;
+}
+
+#container {
+	position: relative;
+  margin: 60px auto 40px auto;
+  width: 760px;
+}
+
+
+/********************************* top elements *********************************/
+
+
+#header {
+	display: none;
+}
+
+#nav {
+	list-style: none;
+	display: block;
+	font-size: 1.0em;
+  text-transform: uppercase;
+  padding: 3px;
+}
+
+#nav li {
+	margin-right: 0.5em;
+	display: inline;
+}
+
+
+/******************************** content sections ****************************/
+
+#content {
+	position: relative;
+	font-size: 1.0em;
+  margin: 10px 0px 0px 360px;
+  padding-top: 4px;
+  color: #1A4F0A;
+  width: 396px;
+}
+
+#content img {
+  margin: 5px;
+  border: 3px solid #FFFEE9;
+}
+
+#words {
+  background: #FFFEE9;
+  background: #BF6C0B;
+  background: #84B123;
+  color: #FFFFFF;
+  padding: 10px 0px 10px 0px;
+  margin: 5px 5px 5px 85px;;
+  border: 3px solid #FFFEE9;
+}
+
+#images {
+  float: left;
+  width: 50px;
+}
+
+p {
+	text-indent: 10px;
+  text-align: justify;
+  line-height: 2em;
+  margin: 0px 20px 10px 20px;
+}
+
+.left {
+	float: left;
+}
+
+#bottom {
+	color: #000000;
+  background: transparent;
+  margin: 0px 20px 0px 20px;
+	padding: 8px 0px 1px 0px;
+	text-align: right;
+  font-size: .8em;
+}
+
+
+/********************************* links ********************************/
+
+ul#nav a, #bottom a {
+	text-decoration: none;
+	color: #BFBBBE;
+  color: #84B123;
+	background: #FFFFFF;
+	width: 100%;
+  padding: 3px;
+  line-height: .66em;
+}
+
+ul#nav li a:hover, ul#nav li a:focus, ul#nav li a.location, #bottom a:hover, #bottom a:focus {
+	/*background: #48D37F;*/
+  background: #FFFFFF;
+  background: #BF6C0B;
+  background: #84B123;
+	color: #1A4F0A;
+  color: #FFFFFF;
+}
+
+p a {
+	background: #FFFFFF;
+  color: #C80000;
+  text-decoration: none;
+}
+
+p a:hover, p a:focus {
+	background: #C80000;
+  color: #FFFFFF;
+}
+
+
+/********************************* form ********************************/
+
+form{
+	/* so that submit button is centered */
+  /*text-align: center;*/
+  width: 400px;
+  margin: 0px auto;
+}
+
+p.contact { text-align: center; width: 350px; margin: 10px auto; }
+
+fieldset {
+	border: none;
+	/*width: 400px;;*/
+  width: 100%;
+	padding: 0px 0px 20px 0px;
+  margin: 0px auto;
+}
+
+.clear { margin: 10px 0px; }
+
+fieldset legend {
+	font-size: 18px;
+  text-align: right;
+  margin: 0px 0px 6px 0px;
+}
+
+fieldset label {
+	text-align: left;
+  display: block;
+}
+
+fieldset input, fieldset textarea {
+  width: 100%;
+  display: block;
+  clear: both;
+}
+
+#submit {
+	width: 80px;
+}
+
+
+
+/************************** header typestyles ***************************/
+
+h1
+{
+	/*color: #FFFFFF;
+	background: #222222;
+	margin: -10px 0px 0px 0px;
+  padding: 0px 0px 10px 0px;
+	text-align: left;
+	font-size: 4em;
+	font-weight: normal;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Helvetica", "Century Gothic", sans-serif;*/
+  color: #FFFFFF;
+  /*background: url(images/rowecenter.jpg) top center no-repeat;*/
+  height: 260px;
+  text-align: center;
+}
+
+h2
+{
+  color: #0136AD;
+  background: transparent;
+	text-decoration: none;	
+	text-align: center;
+	font-size: 2.4em;
+	font-weight: normal;
+	font-family: "Trebuchet MS", "Tahoma", "Agency FB", "Helvetica", "Century Gothic", "Lucida Sans Unicode", sans-serif;
+}
